@@ -5,7 +5,8 @@
   #BottomPart { float:left;}
   .success { background-color: #ccffcc;}
   </style>
-  <title>Bootstrap Example</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Chest Opener</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -31,7 +32,6 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
          <li><a href="DoIt.html">Do it!</a></li>
-        <li><a href="SetUp.html">How To</a></li>
         <li><a href="About.html">About</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->

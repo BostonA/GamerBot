@@ -1,36 +1,14 @@
 """
-Codes:
-    Format
-    1: Ma Full 2: SM 1212 3: Si Full 4: Go Full Free: Y 12:12
-    
-Pos: 3+4, 11+12 24+25, 35+36
-Silver: 111
-Gold: 100
-Magic: 010
-Giant: 110
-Legendary: 001
-Super Magic: 101
-
-Time
-xxxx xxxx
-
-Y = 1
-
-Time
-
-xxxx: xxxx
-
-Exsample
-1: Si Full 2: SM 12:12 3: G0 Full 4: Go Full Free: Y 12:12
-Ma    Full   SM    12:12  Go    Full    Go  Full
-010 00000000 101 11001100 100 00000000 100 00000000
+Yo
 """
 import RPi.GPIO as GPIO
 import time
+"""
 open('/tmp/newfile.txt', 'w+')
 afile = open('/tmp/newfile.txt', 'w')
 afile.write("00 00 00 00 N")
 afile.close()
+"""
 restTime = .5
 flashPattern = [12, 3, 8, 3]
 GPIO.setmode(GPIO.BCM)
