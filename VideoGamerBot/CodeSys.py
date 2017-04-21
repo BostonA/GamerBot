@@ -8,6 +8,7 @@ open('/tmp/newfile.txt', 'w+')
 afile = open('/tmp/newfile.txt', 'w')
 afile.write("00 00 00 00 N")
 afile.close()
+Foo
 """
 restTime = .5
 flashPattern = [12, 3, 8, 3]
